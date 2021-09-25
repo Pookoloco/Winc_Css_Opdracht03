@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+body{
+    color: darkred; 
+    background-color: antiquewhite;  
+    font-family: Gluten, Helvetica, sans-serif;    
+}
+
+header {
+  border: 5px solid blueviolet;
+  margin: 0 auto;
+  width: 56%;
+  padding: 2em;
+  font-weight: bold;
+  font-size: x-large;
+  
+}
+
+nav {
+  background-color: gray;
+  border: 6px outset rgb(6, 231, 137);
+  font-size: larger; 
+  margin: 0 auto;
+  width: 30%;
+  
+}
+
+.navbar li {
+  display: inline;
+}
+
+main{
+  border: 10px dotted orange;
+  margin:2em 4em;
+  padding:1em 3em;
+
+}
+
+footer{
+  border: 8px dashed black;
+  margin: 10px 70px; 
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1em;
+  padding-bottom: 2%; 
+  
+}
+
+#bold {
+  font-size: 1.8em;
+  color: rgb(14, 64, 231);
+  font-weight: bold;
+}
+
+#green-font {
+color: green;
+border: 5px solid red;
+}
+
+.fontsize {
+  font-size: 28px;
+}    
+
+#hond {
+  color: crimson;
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.border {
+  font-size: 20px;
+  border: 5px solid blue
+}
+
+@media (max-width: 320px) {
+
+  nav {
+    background-color: aqua;   
+  }
+  body {
+    font-size: small;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+* {
+  background-color: rgb(66, 150, 172);
+  color: hotpink;
+  line-height: 20px;
+}  
+}
+
+
